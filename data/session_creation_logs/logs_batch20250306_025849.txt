@@ -1,0 +1,7 @@
+Total Script Run Time: 750.51 seconds
+LLM Model: gpt-4o
+Random Seed: 1
+Date Range: ['1/1/2024', '1/31/2024']
+Total Session Count: 100
+Execution Date: 2025-03-06 02:58:49
+Output Filename: session_batch_files/fake_ivr_sessions_batch20250306_024619.json

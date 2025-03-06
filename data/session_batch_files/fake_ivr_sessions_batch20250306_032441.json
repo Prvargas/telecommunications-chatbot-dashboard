@@ -1,0 +1,2685 @@
+[
+  {
+    "session_id": "IVR-20250306-94485",
+    "customer_id": "CUST_831812",
+    "call_start_time": "2024-06-28T17:15:31",
+    "call_end_time": "2024-06-28T17:29:19",
+    "call_duration_sec": 828,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:25:08.524281Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for calling Spectrum! How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:25:24.524281Z",
+        "speaker": "Customer",
+        "text": "Hi! I'd like to explore options for upgrading my current service package, please.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7790824448448714
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:25:35.524281Z",
+        "speaker": "Chatbot",
+        "text": "Absolutely, I'd be happy to help with that! To ensure I provide you with the best options, could you please confirm the type of service you're looking to upgrade? Is it internet, TV, or phone?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:25:53.524281Z",
+        "speaker": "Customer",
+        "text": "Sure, I'm interested in upgrading my internet service.",
+        "intent_detected": {
+          "intent_name": "Suspicious Activity Alert",
+          "confidence_score": 0.8977950049737167
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:26:04.524281Z",
+        "speaker": "Chatbot",
+        "text": "Great choice! We have several high-speed internet packages available. Would you like to learn about our most popular options, or do you have a specific speed in mind?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:26:17.524281Z",
+        "speaker": "Customer",
+        "text": "I\u2019d love to hear about the popular options!",
+        "intent_detected": {
+          "intent_name": "Bundle & Promotion Inquiry",
+          "confidence_score": 0.8988500658091279
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:26:35.524281Z",
+        "speaker": "Chatbot",
+        "text": "Fantastic! Our most popular upgrade is the Ultra package, which offers speeds up to 400 Mbps. It\u2019s perfect for streaming, gaming, and working from home with multiple devices. Does that sound like what you\u2019re looking for?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:26:50.524281Z",
+        "speaker": "Customer",
+        "text": "Yes, that sounds perfect! How do I proceed with the upgrade?",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9320819887435735
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:27:03.524281Z",
+        "speaker": "Chatbot",
+        "text": "I'm glad to hear that! I can help you process the upgrade right now. It will take just a moment. Can you please confirm your current account information to proceed?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:27:22.524281Z",
+        "speaker": "Customer",
+        "text": "Of course! My account number is 123456789.",
+        "intent_detected": {
+          "intent_name": "Payment Arrangement",
+          "confidence_score": 0.9032166870245819
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:27:36.524281Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for that information. I've successfully processed your upgrade to the Ultra package. You should experience the faster speeds within the next 24 hours. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:27:44.524281Z",
+        "speaker": "Customer",
+        "text": "No, that\u2019s all I needed. Thank you so much for your help!",
+        "intent_detected": {
+          "intent_name": "Unmapped Address Error",
+          "confidence_score": 0.9618014977742251
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:28:00.524281Z",
+        "speaker": "Chatbot",
+        "text": "You're very welcome! I'm glad I could assist you today. Enjoy your new internet speeds, and have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:28:20.524281Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too!",
+        "intent_detected": {
+          "intent_name": "Network Congestion Event",
+          "confidence_score": 0.8492488367632479
+        }
+      }
+    ],
+    "initial_intent": "Upgrade Request",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "UPGRADE-REQUEST",
+    "topic_type": "Common",
+    "topic_name": "Upgrade Request"
+  },
+  {
+    "session_id": "IVR-20250306-77723",
+    "customer_id": "CUST_547134",
+    "call_start_time": "2024-06-15T20:43:24",
+    "call_end_time": "2024-06-15T20:47:51",
+    "call_duration_sec": 267,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:25:12.371659Z",
+        "speaker": "Chatbot",
+        "text": "Hello, and thank you for calling Spectrum Customer Service. How may I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:25:20.371659Z",
+        "speaker": "Customer",
+        "text": "Hi! I was wondering if you could tell me about any current bundles or promotions you have available. I'm interested in possibly upgrading my services.",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.7905613914766234
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:25:31.371659Z",
+        "speaker": "Chatbot",
+        "text": "Absolutely! I'd be happy to help you with that. We have several exciting bundle options that include internet, TV, and phone services at special promotional rates. Are you currently subscribed to any of our services?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:25:48.371659Z",
+        "speaker": "Customer",
+        "text": "Yes, I already have internet and TV with Spectrum, but I'm curious about adding phone service. Are there any promotions for existing customers?",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8732295259897912
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:25:53.371659Z",
+        "speaker": "Chatbot",
+        "text": "Great! As an existing customer, you can take advantage of our exclusive Triple Play bundle, which includes high-speed internet, a variety of TV channels, and unlimited nationwide calling. This bundle offers a fantastic deal and a discounted rate for the first 12 months.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:26:04.371659Z",
+        "speaker": "Customer",
+        "text": "That sounds perfect! Can you tell me more about the TV channels included in this bundle?",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8879162914048471
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:26:18.371659Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! The Triple Play bundle comes with our most popular TV package, which includes over 125 channels, featuring sports, news, and entertainment networks. Plus, you get access to our On Demand library and Spectrum TV app for watching on the go.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:26:34.371659Z",
+        "speaker": "Customer",
+        "text": "That's exactly what I'm looking for. How do I go about upgrading to this bundle?",
+        "intent_detected": {
+          "intent_name": "Cancellation Request",
+          "confidence_score": 0.7838532668112372
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:26:54.371659Z",
+        "speaker": "Chatbot",
+        "text": "I'm pleased to hear that! I can guide you through the upgrade process right now. I'll just need to verify a few details from your account to proceed. Can you please confirm your account number or the phone number associated with your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:27:00.371659Z",
+        "speaker": "Customer",
+        "text": "Sure, it's 555-123-4567.",
+        "intent_detected": {
+          "intent_name": "Bundle & Promotion Inquiry",
+          "confidence_score": 0.9164307802879437
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:27:17.371659Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for that information. I've got everything I need here. Your account is eligible for the upgrade, and I can activate the Triple Play bundle starting today. You'll receive an email confirmation with all the details shortly. Is there anything else I can assist you with?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:27:25.371659Z",
+        "speaker": "Customer",
+        "text": "No, that's all I needed. Thanks so much for your help! I'm excited to try out the new services.",
+        "intent_detected": {
+          "intent_name": "Network Congestion Event",
+          "confidence_score": 0.933642826557042
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:27:32.371659Z",
+        "speaker": "Chatbot",
+        "text": "You're very welcome! We're glad to have you as a valued Spectrum customer. If you have any more questions, feel free to reach out anytime. Enjoy your new bundle and have a wonderful day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:27:51.371659Z",
+        "speaker": "Customer",
+        "text": "Thank you, you too!",
+        "intent_detected": {
+          "intent_name": "Cancellation Request",
+          "confidence_score": 0.9308686625374595
+        }
+      }
+    ],
+    "initial_intent": "Bundle & Promotion Inquiry",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "BUNDLE-&-PROMOTION-INQUIRY",
+    "topic_type": "Common",
+    "topic_name": "Bundle & Promotion Inquiry"
+  },
+  {
+    "session_id": "IVR-20250306-99403",
+    "customer_id": "CUST_853409",
+    "call_start_time": "2024-06-12T21:31:40",
+    "call_end_time": "2024-06-12T21:44:43",
+    "call_duration_sec": 783,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:25:18.829507Z",
+        "speaker": "Chatbot",
+        "text": "Hello! Thank you for calling Spectrum customer service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:25:31.829507Z",
+        "speaker": "Customer",
+        "text": "Hi, I have a general question. I'm really frustrated because my internet has been disconnecting frequently, and I'm not sure why this keeps happening.",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.7543921303326676
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:25:50.829507Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear about the trouble you're experiencing with your internet connection. Let me check your account and see if I can find any issues. One moment, please.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:26:18.829507Z",
+        "speaker": "Chatbot",
+        "text": "It seems there's a system error preventing me from accessing your account details right now. Please hold on while I attempt to resolve this.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:26:54.829507Z",
+        "speaker": "Chatbot",
+        "text": "Okay, I've fixed the issue. Thank you for your patience. Let's try that again. Please allow me another moment.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:27:27.829507Z",
+        "speaker": "Chatbot",
+        "text": "It appears that there was a recent service disruption in your area, which has since been resolved. Can you please restart your modem to see if that improves your connection?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:27:47.829507Z",
+        "speaker": "Customer",
+        "text": "I've already tried restarting the modem several times. It's really annoying that this keeps happening.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.7412336544630655
+        }
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:28:04.829507Z",
+        "speaker": "Chatbot",
+        "text": "I understand how frustrating this must be. Sometimes, resetting the modem to its factory settings can help. Would you like me to guide you through that process?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:24.829507Z",
+        "speaker": "Customer",
+        "text": "Fine, let's do that.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.7937831719687457
+        }
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:28:34.829507Z",
+        "speaker": "Chatbot",
+        "text": "Great. First, locate the reset button on the back of your modem. Press and hold it for about 10 seconds. Let me know once you've done that.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:28:51.829507Z",
+        "speaker": "Customer",
+        "text": "Okay, I've reset it.",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.7928327723396473
+        }
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:29:08.829507Z",
+        "speaker": "Chatbot",
+        "text": "Fantastic. It may take a few minutes for your modem to restart and reconnect. Once it's back online, please check if your internet connection is stable.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:29:28.829507Z",
+        "speaker": "Customer",
+        "text": "Alright, it's back on. Let me check... Okay, it seems to be working better now. Thanks.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9716175862403968
+        }
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:29:42.829507Z",
+        "speaker": "Chatbot",
+        "text": "I'm glad to hear that your connection is stable again. If you experience any more issues, feel free to reach out to us. Is there anything else I can help you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:29:47.829507Z",
+        "speaker": "Customer",
+        "text": "No, that's it for now. Thanks for the help.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.7529476819838037
+        }
+      },
+      {
+        "turn_number": 16,
+        "timestamp": "2025-03-06T03:29:55.829507Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome. Thank you for calling Spectrum customer service. Have a great day!",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "General Question",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Negative",
+    "system_error_flag": true,
+    "ivr_outcome_code": "GENERAL-QUESTION",
+    "topic_type": "Common",
+    "topic_name": "General Question"
+  },
+  {
+    "session_id": "IVR-20250306-95757",
+    "customer_id": "CUST_573939",
+    "call_start_time": "2024-06-15T11:36:15",
+    "call_end_time": "2024-06-15T11:41:35",
+    "call_duration_sec": 320,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:25:36.384696Z",
+        "speaker": "Chatbot",
+        "text": "Hello! Welcome to Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:25:43.384696Z",
+        "speaker": "Customer",
+        "text": "Hi there! I'd like to set up a payment arrangement for my account, please.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8075649022681406
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:25:52.384696Z",
+        "speaker": "Chatbot",
+        "text": "Sure thing! I can help with that. Could you please confirm the phone number associated with your Spectrum account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:26:04.384696Z",
+        "speaker": "Customer",
+        "text": "Yes, it's 555-1234.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.7109272964456836
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:26:12.384696Z",
+        "speaker": "Chatbot",
+        "text": "Thank you! I see your account here. To set up a payment arrangement, I just need to know the date you'd like to schedule your payment. When would be convenient for you?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:26:20.384696Z",
+        "speaker": "Customer",
+        "text": "I\u2019d like to schedule it for the 15th of this month.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.8341868567465806
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:26:27.384696Z",
+        "speaker": "Chatbot",
+        "text": "Great choice! I\u2019ve scheduled your payment for the 15th. You\u2019ll receive a confirmation email shortly. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:26:32.384696Z",
+        "speaker": "Customer",
+        "text": "No, that's all I needed. You\u2019ve been very helpful!",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8788190208485154
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:26:39.384696Z",
+        "speaker": "Chatbot",
+        "text": "I'm glad I could help! If you have any more questions in the future, don\u2019t hesitate to reach out. Have a wonderful day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:26:49.384696Z",
+        "speaker": "Customer",
+        "text": "Thank you! You too!",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.9632415284450253
+        }
+      }
+    ],
+    "initial_intent": "Payment Arrangement",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "PAYMENT-ARRANGEMENT",
+    "topic_type": "Common",
+    "topic_name": "Payment Arrangement"
+  },
+  {
+    "session_id": "IVR-20250306-93807",
+    "customer_id": "CUST_178833",
+    "call_start_time": "2024-06-04T17:16:38",
+    "call_end_time": "2024-06-04T17:22:48",
+    "call_duration_sec": 370,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:25:42.673789Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for calling Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:26:02.673789Z",
+        "speaker": "Customer",
+        "text": "I'm really frustrated right now! There's a network congestion event happening, and it's severely affecting my internet speed.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9411138491485836
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:26:16.673789Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear you're experiencing network issues. Let me help you with that. Can you please provide your account number or the phone number associated with your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:26:32.673789Z",
+        "speaker": "Customer",
+        "text": "I don't want to go through all this again. This congestion problem is making it impossible to work from home, and it's been ongoing for days!",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.7242677099682209
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:26:45.673789Z",
+        "speaker": "Chatbot",
+        "text": "I understand how inconvenient this must be. Let's try to address this issue. Network congestion can occur during peak usage times. Can you confirm if this happens consistently at certain times of the day?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:26:58.673789Z",
+        "speaker": "Customer",
+        "text": "Yes, it gets horrible every evening, and I can't even stream a simple video. It feels like nothing is being done to fix it!",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8249020471336508
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:27:14.673789Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for that information. Unfortunately, network congestion is sometimes unavoidable, but we strive to minimize its impact. I can attempt a reset of your connection from our end to see if it helps. Would you like me to proceed?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:27:20.673789Z",
+        "speaker": "Customer",
+        "text": "I don't even know if that will help. I'm losing patience here.",
+        "intent_detected": {
+          "intent_name": "Payment Arrangement",
+          "confidence_score": 0.9367477688592265
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:27:32.673789Z",
+        "speaker": "Chatbot",
+        "text": "I apologize for the inconvenience. While I perform the reset, are there any other issues I can assist you with?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:27:38.673789Z",
+        "speaker": "Customer",
+        "text": "Honestly, I'm just about done. I've been on hold for too long, and my frustration is through the roof. I might just need to consider other providers.",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.8074417110478089
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:27:44.673789Z",
+        "speaker": "Chatbot",
+        "text": "I'm really sorry to hear that. We value your feedback and are committed to improving our services. The connection reset is underway, but it may take a few minutes to complete.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:27:55.673789Z",
+        "speaker": "Customer",
+        "text": "I don't have time for this. I need reliable internet, not just apologies.",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.9566891271062381
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:28:05.673789Z",
+        "speaker": "Chatbot",
+        "text": "I understand your frustration, and I apologize for any inconvenience caused. If you change your mind, please feel free to reach out for further assistance.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:28:13.673789Z",
+        "speaker": "Customer",
+        "text": "[Silence]",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8345748004725277
+        }
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:28:33.673789Z",
+        "speaker": "Chatbot",
+        "text": "It seems the call has been disconnected. If you need further assistance, please don't hesitate to call us back. Thank you for contacting Spectrum Customer Service.",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Network Congestion Event",
+    "resolution_status": "Abandoned",
+    "escalation_flag": false,
+    "customer_sentiment": "Negative",
+    "system_error_flag": false,
+    "ivr_outcome_code": "NETWORK-CONGESTION-EVENT",
+    "topic_type": "Edge-Case",
+    "topic_name": "Network Congestion Event"
+  },
+  {
+    "session_id": "IVR-20250306-63325",
+    "customer_id": "CUST_336535",
+    "call_start_time": "2024-06-23T19:40:17",
+    "call_end_time": "2024-06-23T19:44:51",
+    "call_duration_sec": 274,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:25:54.409443Z",
+        "speaker": "Chatbot",
+        "text": "Hello! Welcome to Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:26:06.409443Z",
+        "speaker": "Customer",
+        "text": "Hi there! I'm having some trouble with my internet connection. It's been a bit spotty lately, and I'm hoping you can help me get it sorted out.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8215480162229262
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:26:16.409443Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear about the trouble you're experiencing with your internet. Let's work together to get this fixed! Can you please provide more details about the issue?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:26:31.409443Z",
+        "speaker": "Customer",
+        "text": "Sure! The connection keeps dropping every now and then, especially in the evenings. It's been happening for the past few days.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.9280612688025432
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:26:48.409443Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for that information. Let's start with a quick diagnostic check on your network. This will only take a moment. Please hold on.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:26:59.409443Z",
+        "speaker": "Customer",
+        "text": "Sounds good, thank you!",
+        "intent_detected": {
+          "intent_name": "Cancellation Request",
+          "confidence_score": 0.852626427843225
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:27:04.409443Z",
+        "speaker": "Chatbot",
+        "text": "I\u2019ve completed the diagnostic check, and it seems there was a minor configuration issue with your modem. I can guide you through resetting it. Would you like to proceed?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:27:21.409443Z",
+        "speaker": "Customer",
+        "text": "Yes, please! That would be great.",
+        "intent_detected": {
+          "intent_name": "Suspicious Activity Alert",
+          "confidence_score": 0.8598070643582179
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:27:30.409443Z",
+        "speaker": "Chatbot",
+        "text": "Perfect! Please locate the reset button on your modem. It\u2019s usually a small button on the back. Press and hold it for about 10 seconds, then release. Let me know once you\u2019ve done that.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:27:42.409443Z",
+        "speaker": "Customer",
+        "text": "Alright, I\u2019ve reset the modem. What\u2019s next?",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.7788508755959734
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:27:52.409443Z",
+        "speaker": "Chatbot",
+        "text": "Great job! Now, let\u2019s wait a couple of minutes for the modem to fully restart and reconnect. I\u2019ll check the connection status from my end.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:28:01.409443Z",
+        "speaker": "Customer",
+        "text": "Okay, fingers crossed!",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8115626372511666
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:28:07.409443Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for your patience. I\u2019m checking the connection now\u2026 and it looks like everything is back to normal! Could you please try accessing the internet to confirm it\u2019s working properly?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:28:12.409443Z",
+        "speaker": "Customer",
+        "text": "Wow, it\u2019s much faster now, and the connection is stable! Thank you so much for your help.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7332317615952463
+        }
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:28:20.409443Z",
+        "speaker": "Chatbot",
+        "text": "You\u2019re very welcome! I\u2019m glad we could resolve the issue for you. If you need assistance in the future, don\u2019t hesitate to reach out. Have a wonderful day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 16,
+        "timestamp": "2025-03-06T03:28:36.409443Z",
+        "speaker": "Customer",
+        "text": "Thanks again! You too!",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8573992120116102
+        }
+      }
+    ],
+    "initial_intent": "Technical Issue",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "TECHNICAL-ISSUE",
+    "topic_type": "Common",
+    "topic_name": "Technical Issue"
+  },
+  {
+    "session_id": "IVR-20250306-54643",
+    "customer_id": "CUST_556788",
+    "call_start_time": "2024-06-22T20:07:52",
+    "call_end_time": "2024-06-22T20:13:14",
+    "call_duration_sec": 322,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:26:02.636418Z",
+        "speaker": "Chatbot",
+        "text": "Hello, and thank you for calling Spectrum. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:26:10.636418Z",
+        "speaker": "Customer",
+        "text": "Hi, I'm interested in learning more about your current bundles and promotions. I want to see if there's a package that might suit my needs better.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7145037126418072
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:26:15.636418Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! We have a variety of bundles and promotions available that combine our internet, TV, and phone services. May I ask what services you're currently using or interested in?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:26:33.636418Z",
+        "speaker": "Customer",
+        "text": "I currently have internet and TV, but I'm curious if adding the phone service would offer any savings or additional benefits.",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.7741499002916962
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:26:45.636418Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for that information. Let me look up the latest promotions for you. We often have bundled packages that could provide a discount when phone services are added. One moment, please.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:27:07.636418Z",
+        "speaker": "Chatbot",
+        "text": "We have a Triple Play bundle that includes internet, TV, and phone services at a discounted rate. Additionally, there's a promotion where you can receive a free premium channel for the first three months. Would you like more details about this offer?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:27:20.636418Z",
+        "speaker": "Customer",
+        "text": "That sounds interesting. Could you tell me more about the pricing and any other benefits included?",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8528414647970735
+        }
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:27:35.636418Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! The Triple Play bundle pricing depends on your location and current plan, but typically, it provides savings over purchasing each service individually. You also get unlimited nationwide calling and access to Spectrum's On Demand library. Would you like me to connect you to a representative who can provide detailed information based on your specific account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:27:42.636418Z",
+        "speaker": "Customer",
+        "text": "Yes, that would be helpful. I'd like to understand the exact cost and how it compares to my current plan.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8049945106839442
+        }
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:27:50.636418Z",
+        "speaker": "Chatbot",
+        "text": "Great! I will now connect you to one of our customer service representatives who can assist you further with your inquiry. Please hold while I transfer your call.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:28:07.636418Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for your patience. A customer service representative will be with you shortly to discuss our bundles and promotions in more detail. Have a great day!",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Bundle & Promotion Inquiry",
+    "resolution_status": "Escalated",
+    "escalation_flag": true,
+    "customer_sentiment": "Neutral",
+    "system_error_flag": false,
+    "ivr_outcome_code": "BUNDLE-&-PROMOTION-INQUIRY",
+    "topic_type": "Common",
+    "topic_name": "Bundle & Promotion Inquiry"
+  },
+  {
+    "session_id": "IVR-20250306-29338",
+    "customer_id": "CUST_645055",
+    "call_start_time": "2024-06-29T09:33:17",
+    "call_end_time": "2024-06-29T09:44:36",
+    "call_duration_sec": 679,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:26:23.253702Z",
+        "speaker": "Chatbot",
+        "text": "Welcome to Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:26:35.253702Z",
+        "speaker": "Customer",
+        "text": "Hi, I'm experiencing a service outage. My internet has been down since this morning.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8582732022757413
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:26:47.253702Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear about the service outage. Let's work together to resolve this issue. May I have your ZIP code to check for any reported outages in your area?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:27:04.253702Z",
+        "speaker": "Customer",
+        "text": "Sure, my ZIP code is 90210.",
+        "intent_detected": {
+          "intent_name": "International Roaming Error",
+          "confidence_score": 0.8634277345247199
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:27:24.253702Z",
+        "speaker": "Chatbot",
+        "text": "Thank you. Let me check for any service issues in your area... It appears there is a known outage affecting internet services in your region. Our technicians are already working on it and expect services to be restored soon.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:27:37.253702Z",
+        "speaker": "Customer",
+        "text": "Alright, that\u2019s good to know. Is there an estimated time for when it will be fixed?",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.9575340045208474
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:27:48.253702Z",
+        "speaker": "Chatbot",
+        "text": "I understand your concern. The estimated time for restoration is approximately 2 hours from now. I apologize for any inconvenience this may cause.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:28:07.253702Z",
+        "speaker": "Customer",
+        "text": "Okay, I appreciate the update. Can you notify me when the service is back online?",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8670570126283674
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:12.253702Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! We can send you a notification via email or text message once your service is restored. Which would you prefer?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:28:22.253702Z",
+        "speaker": "Customer",
+        "text": "A text message would be great, thanks.",
+        "intent_detected": {
+          "intent_name": "Bundle & Promotion Inquiry",
+          "confidence_score": 0.8140076245171701
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:28:42.253702Z",
+        "speaker": "Chatbot",
+        "text": "Perfect. I've set up a notification for you. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:29:02.253702Z",
+        "speaker": "Customer",
+        "text": "Actually, I have some questions about my bill. Can you help with that?",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.7447615333902885
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:29:21.253702Z",
+        "speaker": "Chatbot",
+        "text": "For billing inquiries, I'll need to connect you with one of our customer service agents. Please hold while I transfer you.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:29:26.253702Z",
+        "speaker": "Customer",
+        "text": "Sounds good, thank you.",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.7926148937532375
+        }
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:29:40.253702Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome. Please hold for the next available agent... [pause] Thank you for your patience. You are now connected with a customer service agent.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 16,
+        "timestamp": "2025-03-06T03:30:12.253702Z",
+        "speaker": "Customer",
+        "text": "Hi Jamie, yes, I just wanted some clarification on a charge from last month.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.7512278051967459
+        }
+      },
+      {
+        "turn_number": 17,
+        "timestamp": "2025-03-06T03:30:49.253702Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for contacting Spectrum. We\u2019re glad we could resolve your service outage issue. Have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 18,
+        "timestamp": "2025-03-06T03:31:00.253702Z",
+        "speaker": "Customer",
+        "text": "Thanks for your help!",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.9183975868226653
+        }
+      }
+    ],
+    "initial_intent": "Service Outage",
+    "resolution_status": "Resolved",
+    "escalation_flag": true,
+    "customer_sentiment": "Neutral",
+    "system_error_flag": false,
+    "ivr_outcome_code": "SERVICE-OUTAGE",
+    "topic_type": "Common",
+    "topic_name": "Service Outage"
+  },
+  {
+    "session_id": "IVR-20250306-91571",
+    "customer_id": "CUST_215880",
+    "call_start_time": "2024-06-22T14:37:56",
+    "call_end_time": "2024-06-22T14:44:17",
+    "call_duration_sec": 381,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:26:29.296378Z",
+        "speaker": "Chatbot",
+        "text": "Welcome to Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:26:42.296378Z",
+        "speaker": "Customer",
+        "text": "Hi, I need help with something regarding accessibility support, and honestly, I'm really frustrated with the lack of options available.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8707987943656966
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:26:51.296378Z",
+        "speaker": "Chatbot",
+        "text": "I\u2019m sorry to hear that you\u2019re having difficulties. Could you please provide more details about the accessibility support issue you\u2019re experiencing?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:26:59.296378Z",
+        "speaker": "Customer",
+        "text": "Sure, I'm visually impaired and I find it extremely challenging to navigate your website. I've been trying to access certain features, but it's nearly impossible without proper accessibility tools.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7250850075796453
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:27:07.296378Z",
+        "speaker": "Chatbot",
+        "text": "I understand how important it is to have an accessible experience. Let me connect you with a human agent who can assist you further with this issue.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:27:18.296378Z",
+        "speaker": "Customer",
+        "text": "I hope they can actually help this time. This has been ongoing for too long.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.9823360503547602
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:27:30.296378Z",
+        "speaker": "Chatbot",
+        "text": "I apologize for any inconvenience you've experienced. Please hold while I transfer you to a specialist who can address your concerns about accessibility support.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:27:50.296378Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for your patience. You will now be connected to a human agent who can provide the support you need.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:02.296378Z",
+        "speaker": "Customer",
+        "text": "Alright, I\u2019ll wait. I really hope this gets sorted out.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.9142972929702344
+        }
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:28:21.296378Z",
+        "speaker": "Chatbot",
+        "text": "Your call is being transferred now. An agent will assist you shortly. Thank you for contacting Spectrum Customer Service.",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Accessibility Support",
+    "resolution_status": "Escalated",
+    "escalation_flag": true,
+    "customer_sentiment": "Negative",
+    "system_error_flag": false,
+    "ivr_outcome_code": "ACCESSIBILITY-SUPPORT",
+    "topic_type": "Edge-Case",
+    "topic_name": "Accessibility Support"
+  },
+  {
+    "session_id": "IVR-20250306-81212",
+    "customer_id": "CUST_278198",
+    "call_start_time": "2024-06-14T09:51:50",
+    "call_end_time": "2024-06-14T10:00:44",
+    "call_duration_sec": 534,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:26:52.179599Z",
+        "speaker": "Chatbot",
+        "text": "Welcome to Spectrum customer service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:26:58.179599Z",
+        "speaker": "Customer",
+        "text": "Hi, I'm having a really frustrating issue with my internet connection. It's been dropping constantly, and it's driving me crazy.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.839101876602727
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:27:17.179599Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear that you're experiencing this issue. Let's try to fix your internet connection. Can you please confirm if you've tried restarting your modem?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:27:32.179599Z",
+        "speaker": "Customer",
+        "text": "Yes, I've restarted it multiple times, and it still keeps disconnecting. It's been happening for a week now!",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.9588204571543586
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:27:40.179599Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for providing that information. Let me run a quick diagnostic test on your connection. Please hold on for a moment.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:27:57.179599Z",
+        "speaker": "Customer",
+        "text": "Alright, but I've been through this before, and nothing seems to work.",
+        "intent_detected": {
+          "intent_name": "Accessibility Support",
+          "confidence_score": 0.729559790148428
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:28:13.179599Z",
+        "speaker": "Chatbot",
+        "text": "I understand your frustration. According to our system, there doesn't appear to be an outage in your area. Let's try resetting your modem from our end. This might help stabilize your connection.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:28:22.179599Z",
+        "speaker": "Customer",
+        "text": "Fine, just do it. I really hope this works because I'm about to lose my patience.",
+        "intent_detected": {
+          "intent_name": "Account Hijacking/Fraud",
+          "confidence_score": 0.8074106290453428
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:42.179599Z",
+        "speaker": "Chatbot",
+        "text": "Initiating the reset process now. This might take a few minutes. Please remain on the line.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:28:59.179599Z",
+        "speaker": "Customer",
+        "text": "Okay, but if this doesn't work, I don't know what else to do.",
+        "intent_detected": {
+          "intent_name": "Account Information Update",
+          "confidence_score": 0.9577825284975295
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:29:08.179599Z",
+        "speaker": "Chatbot",
+        "text": "The reset process is complete. Could you please check if your connection is stable now?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:29:16.179599Z",
+        "speaker": "Customer",
+        "text": "It's still the same! I can't deal with this anymore. I've already spent so much time on this issue.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.7036121295310354
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:29:25.179599Z",
+        "speaker": "Chatbot",
+        "text": "I'm truly sorry for the inconvenience. If you need further assistance, you can reach out to our technical support team at any time.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:29:45.179599Z",
+        "speaker": "Customer",
+        "text": "This is ridiculous. I don't have time for this. I'll have to figure something else out. *click*",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.7351096411479296
+        }
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:29:56.179599Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for contacting Spectrum. We apologize for any inconvenience caused. Goodbye.",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Technical Issue",
+    "resolution_status": "Abandoned",
+    "escalation_flag": false,
+    "customer_sentiment": "Negative",
+    "system_error_flag": false,
+    "ivr_outcome_code": "TECHNICAL-ISSUE",
+    "topic_type": "Common",
+    "topic_name": "Technical Issue"
+  },
+  {
+    "session_id": "IVR-20250306-17136",
+    "customer_id": "CUST_712940",
+    "call_start_time": "2024-06-28T07:59:36",
+    "call_end_time": "2024-06-28T08:07:11",
+    "call_duration_sec": 455,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:27:10.621746Z",
+        "speaker": "Chatbot",
+        "text": "Welcome to Spectrum customer support. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:27:15.621746Z",
+        "speaker": "Customer",
+        "text": "Hi, I just have a general question about my internet service.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.8615082788889662
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:27:28.621746Z",
+        "speaker": "Chatbot",
+        "text": "Of course! I'd be happy to help with that. What would you like to know about your internet service?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:27:38.621746Z",
+        "speaker": "Customer",
+        "text": "I'm curious about the different internet plans that are available. Can you provide some information on that?",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7040398985827311
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:27:49.621746Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! We offer a variety of internet plans to suit different needs, including high-speed and unlimited data options. You can also choose plans that bundle internet with TV and phone services for added value.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:28:03.621746Z",
+        "speaker": "Customer",
+        "text": "That sounds good. Could you tell me more about the pricing and speeds for these plans?",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7168817217578592
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:28:17.621746Z",
+        "speaker": "Chatbot",
+        "text": "Absolutely, I can provide the details on pricing and speeds. Please give me a moment to retrieve that information for you.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:28:44.621746Z",
+        "speaker": "Chatbot",
+        "text": "I apologize for the inconvenience, but it seems there was a technical error retrieving the information. Let me try that again.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:54.621746Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for your patience. Here are the details: We offer internet speeds ranging from 100 Mbps to 1 Gbps, with prices starting at $49.99 per month. Is there anything specific you'd like to know about these plans?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:28:59.621746Z",
+        "speaker": "Customer",
+        "text": "That's helpful, thank you. I'm considering switching my current plan. How do I go about doing that?",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8673447165908756
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:29:15.621746Z",
+        "speaker": "Chatbot",
+        "text": "Great! You can easily switch your plan by visiting your account on our website or by using the Spectrum app. If you need further assistance, our customer service representatives are also available to help with the process.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:29:25.621746Z",
+        "speaker": "Customer",
+        "text": "Thanks, I think I have all the information I need now.",
+        "intent_detected": {
+          "intent_name": "Payment Arrangement",
+          "confidence_score": 0.8379464124996359
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:29:41.621746Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome! If you have any more questions in the future, feel free to reach out. Have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:29:49.621746Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9816552922478357
+        }
+      }
+    ],
+    "initial_intent": "General Question",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Neutral",
+    "system_error_flag": true,
+    "ivr_outcome_code": "GENERAL-QUESTION",
+    "topic_type": "Common",
+    "topic_name": "General Question"
+  },
+  {
+    "session_id": "IVR-20250306-41513",
+    "customer_id": "CUST_904199",
+    "call_start_time": "2024-06-01T09:22:55",
+    "call_end_time": "2024-06-01T09:35:09",
+    "call_duration_sec": 734,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:27:23.320006Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for calling Spectrum Customer Service. To ensure we provide you with the best service, please tell me what you're calling about today.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:27:39.320006Z",
+        "speaker": "Customer",
+        "text": "Hi, I'm calling because I have a question about my billing statement.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.9172062060801027
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:27:47.320006Z",
+        "speaker": "Chatbot",
+        "text": "I can help with that. Are you inquiring about a specific charge, your payment history, or something else related to your bill?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:28:05.320006Z",
+        "speaker": "Customer",
+        "text": "I'm trying to understand a specific charge that appeared on my latest bill.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.9718756768890617
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:28:11.320006Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for providing that information. Please hold for a moment while I retrieve your billing details.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:28:26.320006Z",
+        "speaker": "Customer",
+        "text": "Sure, no problem.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.722658889612823
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:28:34.320006Z",
+        "speaker": "Chatbot",
+        "text": "I have your billing statement here. It looks like the charge in question is for a premium channel package added last month. Would you like more details on this charge?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:28:40.320006Z",
+        "speaker": "Customer",
+        "text": "Yes, that would be helpful. I don't remember subscribing to any new channels.",
+        "intent_detected": {
+          "intent_name": "Account Information Update",
+          "confidence_score": 0.7262703441918289
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:53.320006Z",
+        "speaker": "Chatbot",
+        "text": "I understand. According to our records, the package was added on the 15th of last month following a promotional offer. If you did not intend to subscribe, I can assist you in removing it from your account.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:29:09.320006Z",
+        "speaker": "Customer",
+        "text": "Oh, I see. Yes, please remove it. I didn't mean to add that package.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9073262926912009
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:29:25.320006Z",
+        "speaker": "Chatbot",
+        "text": "Certainly, I've removed the premium channel package from your account. The charge will be credited back to your next billing cycle. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:29:42.320006Z",
+        "speaker": "Customer",
+        "text": "No, that's all. Thank you for the help.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9148210955657381
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:29:56.320006Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome. I'm glad I could resolve your billing inquiry. Thank you for calling Spectrum, and have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:30:16.320006Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too.",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.9592012805487626
+        }
+      }
+    ],
+    "initial_intent": "Billing Inquiry",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Neutral",
+    "system_error_flag": false,
+    "ivr_outcome_code": "BILLING-INQUIRY",
+    "topic_type": "Common",
+    "topic_name": "Billing Inquiry"
+  },
+  {
+    "session_id": "IVR-20250306-94433",
+    "customer_id": "CUST_135964",
+    "call_start_time": "2024-06-28T21:32:30",
+    "call_end_time": "2024-06-28T21:46:30",
+    "call_duration_sec": 840,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:27:26.263437Z",
+        "speaker": "Chatbot",
+        "text": "Welcome to Spectrum customer service! How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:27:34.263437Z",
+        "speaker": "Customer",
+        "text": "Hi, I believe my account has been hijacked. I noticed some unusual activity, and I'm worried about potential fraud.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8620006597371912
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:27:39.263437Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear that you're experiencing this issue. Let's work together to secure your account. Could you please confirm your account number or associated phone number?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:27:56.263437Z",
+        "speaker": "Customer",
+        "text": "Sure, my account number is 123456789.",
+        "intent_detected": {
+          "intent_name": "Payment Arrangement",
+          "confidence_score": 0.7202266858608458
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:28:09.263437Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for providing that information. I'll run a quick security check on your account. Please hold on for a moment.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:28:19.263437Z",
+        "speaker": "Customer",
+        "text": "Okay, thank you.",
+        "intent_detected": {
+          "intent_name": "Account Hijacking/Fraud",
+          "confidence_score": 0.7286597877577186
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:28:24.263437Z",
+        "speaker": "Chatbot",
+        "text": "I have reviewed your account, and it seems there has been some unauthorized access. Let's reset your password and review any recent changes together.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:28:35.263437Z",
+        "speaker": "Customer",
+        "text": "That sounds great. I feel better knowing we're addressing this.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9606292174114968
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:28:55.263437Z",
+        "speaker": "Chatbot",
+        "text": "I've sent a password reset link to your registered email. Please let me know once you've received it.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:29:15.263437Z",
+        "speaker": "Customer",
+        "text": "I've got the email and reset my password.",
+        "intent_detected": {
+          "intent_name": "Bundle & Promotion Inquiry",
+          "confidence_score": 0.8316760552371888
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:29:25.263437Z",
+        "speaker": "Chatbot",
+        "text": "Excellent! Now, let's review any recent changes to ensure everything is in order. It appears that all unauthorized changes have been identified and reversed.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:29:33.263437Z",
+        "speaker": "Customer",
+        "text": "That's a relief. Thank you for acting quickly.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8134304943280346
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:29:49.263437Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome! As a precaution, I've also added an extra layer of security to your account with two-factor authentication. This should help prevent future unauthorized access.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:30:08.263437Z",
+        "speaker": "Customer",
+        "text": "Perfect, I appreciate the proactive approach.",
+        "intent_detected": {
+          "intent_name": "General Question",
+          "confidence_score": 0.8717752743739043
+        }
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:30:19.263437Z",
+        "speaker": "Chatbot",
+        "text": "It's our pleasure to help keep your account secure. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 16,
+        "timestamp": "2025-03-06T03:30:31.263437Z",
+        "speaker": "Customer",
+        "text": "No, that's all. Thanks for the efficient help!",
+        "intent_detected": {
+          "intent_name": "Cancellation Request",
+          "confidence_score": 0.7707725745812104
+        }
+      },
+      {
+        "turn_number": 17,
+        "timestamp": "2025-03-06T03:30:39.263437Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome! Thank you for choosing Spectrum. Have a great day and feel free to reach out if you need further assistance. Goodbye!",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Account Hijacking/Fraud",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "ACCOUNT-HIJACKING/FRAUD",
+    "topic_type": "Edge-Case",
+    "topic_name": "Account Hijacking/Fraud"
+  },
+  {
+    "session_id": "IVR-20250306-63231",
+    "customer_id": "CUST_715154",
+    "call_start_time": "2024-06-19T14:51:48",
+    "call_end_time": "2024-06-19T15:05:54",
+    "call_duration_sec": 846,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:27:35.790288Z",
+        "speaker": "Chatbot",
+        "text": "Hello, and thank you for calling Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:27:53.790288Z",
+        "speaker": "Customer",
+        "text": "Hi, I\u2019d like to cancel my service.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.7884248352353012
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:28:13.790288Z",
+        "speaker": "Chatbot",
+        "text": "I understand you want to cancel your service. Could you please provide the reason for your cancellation?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:28:25.790288Z",
+        "speaker": "Customer",
+        "text": "Sure, I'm moving to an area where Spectrum isn't available.",
+        "intent_detected": {
+          "intent_name": "Bundle & Promotion Inquiry",
+          "confidence_score": 0.7465203381796753
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:28:43.790288Z",
+        "speaker": "Chatbot",
+        "text": "I see. Thank you for letting us know. To proceed with the cancellation, I\u2019ll need to verify some account details. Could you please confirm your account number or the phone number associated with your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:29:02.790288Z",
+        "speaker": "Customer",
+        "text": "The phone number associated with my account is 555-123-4567.",
+        "intent_detected": {
+          "intent_name": "Extreme Weather Failure",
+          "confidence_score": 0.8315593472534921
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:29:22.790288Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for confirming your details. I\u2019ve located your account. Just to confirm, you would like to cancel all services linked with this account, correct?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:29:27.790288Z",
+        "speaker": "Customer",
+        "text": "Yes, that\u2019s correct.",
+        "intent_detected": {
+          "intent_name": "Extreme Weather Failure",
+          "confidence_score": 0.8761016632525341
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:29:47.790288Z",
+        "speaker": "Chatbot",
+        "text": "Understood. Your services are scheduled to be canceled on your next billing cycle, which is November 15th. You will receive a final bill including any remaining balances or fees. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:30:05.790288Z",
+        "speaker": "Customer",
+        "text": "No, that should be everything. Thanks for your help.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.9407862916760082
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:30:21.790288Z",
+        "speaker": "Chatbot",
+        "text": "You\u2019re welcome! Thank you for being a Spectrum customer. If you ever need our services again, please don\u2019t hesitate to reach out. Have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:30:37.790288Z",
+        "speaker": "Customer",
+        "text": "Thank you, goodbye.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.8392103714058233
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:30:44.790288Z",
+        "speaker": "Chatbot",
+        "text": "Goodbye!",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Cancellation Request",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Neutral",
+    "system_error_flag": false,
+    "ivr_outcome_code": "CANCELLATION-REQUEST",
+    "topic_type": "Common",
+    "topic_name": "Cancellation Request"
+  },
+  {
+    "session_id": "IVR-20250306-36128",
+    "customer_id": "CUST_310552",
+    "call_start_time": "2024-06-13T17:25:30",
+    "call_end_time": "2024-06-13T17:40:00",
+    "call_duration_sec": 870,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:27:52.965974Z",
+        "speaker": "Chatbot",
+        "text": "Hello! Thank you for calling Spectrum. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:28:09.965974Z",
+        "speaker": "Customer",
+        "text": "Hi there! I'd like to update some information on my account, please.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8795650186372992
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:28:27.965974Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! I can help you with updating your account information. Could you please provide the phone number associated with your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:28:41.965974Z",
+        "speaker": "Customer",
+        "text": "Sure, it's 123-456-7890.",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.7109523048590952
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:28:52.965974Z",
+        "speaker": "Chatbot",
+        "text": "Thank you! I've found your account. What information would you like to update today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:28:57.965974Z",
+        "speaker": "Customer",
+        "text": "I'd like to update my email address and ensure my billing address is current.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8378642082731109
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:29:05.965974Z",
+        "speaker": "Chatbot",
+        "text": "No problem! Let's start with your email address. Please provide your new email address.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:29:23.965974Z",
+        "speaker": "Customer",
+        "text": "My new email address is jane.doe@example.com.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.7586791598771282
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:29:39.965974Z",
+        "speaker": "Chatbot",
+        "text": "Great, I've updated your email address to jane.doe@example.com. Now, let's verify your current billing address. Is it 123 Maple Street, Springfield?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:29:48.965974Z",
+        "speaker": "Customer",
+        "text": "Yes, that's correct.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.9708778649911773
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:30:01.965974Z",
+        "speaker": "Chatbot",
+        "text": "Wonderful! Your billing address is up to date. Is there anything else I can assist you with?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:30:19.965974Z",
+        "speaker": "Customer",
+        "text": "No, that's all. Thanks for the help!",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.8071921238565847
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:30:35.965974Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome! I'm glad I could assist you today. If you need further help, feel free to reach out. Have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:30:48.965974Z",
+        "speaker": "Customer",
+        "text": "Thank you, you too!",
+        "intent_detected": {
+          "intent_name": "Suspicious Activity Alert",
+          "confidence_score": 0.7160785283557862
+        }
+      }
+    ],
+    "initial_intent": "Account Information Update",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "ACCOUNT-INFORMATION-UPDATE",
+    "topic_type": "Common",
+    "topic_name": "Account Information Update"
+  },
+  {
+    "session_id": "IVR-20250306-87896",
+    "customer_id": "CUST_665660",
+    "call_start_time": "2024-06-28T23:06:51",
+    "call_end_time": "2024-06-28T23:20:12",
+    "call_duration_sec": 801,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:28:04.745872Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for calling Spectrum Customer Service. How may I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:28:15.745872Z",
+        "speaker": "Customer",
+        "text": "I'm calling about my bill. It's way higher than usual, and I need to know why.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8503165763987781
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:28:35.745872Z",
+        "speaker": "Chatbot",
+        "text": "I'm sorry to hear that you're experiencing an issue with your bill. Let's look into this. Can you please provide your account number or the phone number associated with your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:28:50.745872Z",
+        "speaker": "Customer",
+        "text": "Sure, it's 555-0123. But seriously, this is the third time this year my bill has unexpectedly increased. I'm really frustrated with this.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.8278600858975299
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:28:55.745872Z",
+        "speaker": "Chatbot",
+        "text": "I understand your frustration, and I'm here to help. Please hold on while I access your account details.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:29:07.745872Z",
+        "speaker": "Customer",
+        "text": "Fine, but this better explain why I'm being overcharged.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7435597908798806
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:29:12.745872Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for your patience. I see there was a change in the promotional discount on your account, which might explain the increase in your bill. I can provide more details if you wish.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:29:17.745872Z",
+        "speaker": "Customer",
+        "text": "A change? I wasn't informed about any change. This is ridiculous. Why wasn't I notified?",
+        "intent_detected": {
+          "intent_name": "Cancellation Request",
+          "confidence_score": 0.8484614099207842
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:29:28.745872Z",
+        "speaker": "Chatbot",
+        "text": "I apologize for any inconvenience caused. Unfortunately, I don't have information on notification issues, but I can guide you on how to check for updates in your billing terms online.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:29:39.745872Z",
+        "speaker": "Customer",
+        "text": "This is just a waste of time. Every time I call, it\u2019s the same runaround. You know what, forget it. I'll just take my business elsewhere.",
+        "intent_detected": {
+          "intent_name": "Account Information Update",
+          "confidence_score": 0.8723489463142214
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:29:59.745872Z",
+        "speaker": "Chatbot",
+        "text": "I'm really sorry to hear that you're considering leaving. If there's anything else I can assist you with or if you change your mind, please don't hesitate to reach out.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:30:24.745872Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for contacting Spectrum Customer Service. Goodbye.",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Billing Inquiry",
+    "resolution_status": "Abandoned",
+    "escalation_flag": false,
+    "customer_sentiment": "Negative",
+    "system_error_flag": false,
+    "ivr_outcome_code": "BILLING-INQUIRY",
+    "topic_type": "Common",
+    "topic_name": "Billing Inquiry"
+  },
+  {
+    "session_id": "IVR-20250306-48017",
+    "customer_id": "CUST_665678",
+    "call_start_time": "2024-06-30T19:27:32",
+    "call_end_time": "2024-06-30T19:32:45",
+    "call_duration_sec": 313,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:28:20.018713Z",
+        "speaker": "Chatbot",
+        "text": "Hello! Thank you for calling Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:28:31.018713Z",
+        "speaker": "Customer",
+        "text": "Hi there! I just have a general question about my internet service. I'm curious if there are any new plans or promotions available.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8052988438242662
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:28:37.018713Z",
+        "speaker": "Chatbot",
+        "text": "I'd be happy to help with that! Let me check the latest promotions and plans available for you. Could you please provide your zip code so I can find the most relevant offers?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:28:52.018713Z",
+        "speaker": "Customer",
+        "text": "Sure, my zip code is 90210.",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.8177879190079501
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:29:08.018713Z",
+        "speaker": "Chatbot",
+        "text": "Thank you! Based on your location, we have a few exciting promotions. For example, there's a new package that offers increased speeds at a discounted rate for the first 12 months. Would you like more details on this plan?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:29:26.018713Z",
+        "speaker": "Customer",
+        "text": "That sounds great! Yes, I'd love to know more about the increased speeds and the pricing.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8754578097965015
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:29:39.018713Z",
+        "speaker": "Chatbot",
+        "text": "Wonderful! The new package offers speeds up to 200 Mbps for just $49.99 per month for the first year. After that, standard rates apply. This package also includes free access to our nationwide Wi-Fi hotspots. Does this plan suit your needs?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:29:50.018713Z",
+        "speaker": "Customer",
+        "text": "Yes, that sounds perfect! I'd like to switch to that plan.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.8825303787007033
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:29:55.018713Z",
+        "speaker": "Chatbot",
+        "text": "Fantastic! I can help you make that change right now. Please hold for a moment while I update your account to the new plan.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:30:04.018713Z",
+        "speaker": "Customer",
+        "text": "Thank you so much! You've been really helpful.",
+        "intent_detected": {
+          "intent_name": "Account Information Update",
+          "confidence_score": 0.7740221356954251
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:30:09.018713Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome! Your account has been successfully updated to the new plan. You should receive a confirmation email shortly. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:30:20.018713Z",
+        "speaker": "Customer",
+        "text": "No, that's all I needed. I really appreciate your help!",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.980628722912014
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:30:26.018713Z",
+        "speaker": "Chatbot",
+        "text": "It was my pleasure! Thank you for being a valued Spectrum customer. Have a wonderful day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:30:46.018713Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too!",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.7940140885844761
+        }
+      }
+    ],
+    "initial_intent": "General Question",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "GENERAL-QUESTION",
+    "topic_type": "Common",
+    "topic_name": "General Question"
+  },
+  {
+    "session_id": "IVR-20250306-15209",
+    "customer_id": "CUST_475397",
+    "call_start_time": "2024-06-12T21:42:57",
+    "call_end_time": "2024-06-12T21:50:01",
+    "call_duration_sec": 424,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:28:23.156789Z",
+        "speaker": "Chatbot",
+        "text": "Hello, and thank you for calling Spectrum Customer Service. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:28:35.156789Z",
+        "speaker": "Customer",
+        "text": "Hi there! I\u2019m experiencing a service outage with my internet, and I'm hoping you can help me get it back up and running.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.7606945143642065
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:28:53.156789Z",
+        "speaker": "Chatbot",
+        "text": "I\u2019m sorry to hear about the inconvenience. Let me check for any reported outages in your area. Can you please provide your zip code?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:28:58.156789Z",
+        "speaker": "Customer",
+        "text": "Sure, my zip code is 90210.",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.9636047699930851
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:29:16.156789Z",
+        "speaker": "Chatbot",
+        "text": "Thank you! Please hold on for a moment while I look up the information.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:29:33.156789Z",
+        "speaker": "Chatbot",
+        "text": "It looks like there was a temporary service outage in your area, but I\u2019m happy to inform you that it has been resolved. You may need to restart your modem to restore your connection. Would you like assistance with that?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:29:39.156789Z",
+        "speaker": "Customer",
+        "text": "That\u2019s good to hear! Yes, some guidance on restarting my modem would be great.",
+        "intent_detected": {
+          "intent_name": "Account Information Update",
+          "confidence_score": 0.9472457183626622
+        }
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:29:51.156789Z",
+        "speaker": "Chatbot",
+        "text": "Certainly! Please locate the power cord of your modem and unplug it from the power source. Wait about 10 seconds, then plug it back in. Once the modem lights are stable, try reconnecting to the internet.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:30:03.156789Z",
+        "speaker": "Customer",
+        "text": "Okay, I\u2019ve done that. Let me check my connection... Yes, it\u2019s working now! Thank you so much for your help.",
+        "intent_detected": {
+          "intent_name": "Technical Issue",
+          "confidence_score": 0.7512223355167513
+        }
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:30:19.156789Z",
+        "speaker": "Chatbot",
+        "text": "You\u2019re very welcome! I\u2019m glad to hear your service is back online. Is there anything else I can assist you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:30:35.156789Z",
+        "speaker": "Customer",
+        "text": "No, that\u2019s all. I appreciate the quick resolution.",
+        "intent_detected": {
+          "intent_name": "Payment Arrangement",
+          "confidence_score": 0.7464225845837077
+        }
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:30:44.156789Z",
+        "speaker": "Chatbot",
+        "text": "It was my pleasure to assist you. Thank you for choosing Spectrum, and have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:31:03.156789Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too!",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9365277759787272
+        }
+      }
+    ],
+    "initial_intent": "Service Outage",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "SERVICE-OUTAGE",
+    "topic_type": "Common",
+    "topic_name": "Service Outage"
+  },
+  {
+    "session_id": "IVR-20250306-52952",
+    "customer_id": "CUST_835530",
+    "call_start_time": "2024-06-21T18:03:01",
+    "call_end_time": "2024-06-21T18:16:48",
+    "call_duration_sec": 827,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:28:49.259990Z",
+        "speaker": "Chatbot",
+        "text": "Hello! Thank you for calling Spectrum. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:28:55.259990Z",
+        "speaker": "Customer",
+        "text": "Hi there! I'm interested in learning more about your current bundles and promotions.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9503569618663283
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:29:13.259990Z",
+        "speaker": "Chatbot",
+        "text": "Great! We have a variety of bundles and promotions that can help you save on your services. Are you looking for TV, internet, or a combination of both?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:29:30.259990Z",
+        "speaker": "Customer",
+        "text": "I'm looking for a combination of both TV and internet. What are your best deals right now?",
+        "intent_detected": {
+          "intent_name": "Account Information Update",
+          "confidence_score": 0.830279144542819
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:29:40.259990Z",
+        "speaker": "Chatbot",
+        "text": "Excellent choice! Currently, we have a bundle that includes our high-speed internet and a wide selection of TV channels, starting at just $89.99 per month. This offer also includes free installation and a one-year free access to our premium streaming service.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:29:48.259990Z",
+        "speaker": "Customer",
+        "text": "That sounds perfect! Are there any contract requirements or additional fees I should be aware of?",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.9598019460923466
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:29:59.259990Z",
+        "speaker": "Chatbot",
+        "text": "There are no long-term contracts, and we offer a 30-day money-back guarantee if you're not satisfied. The only additional fee is a $5 monthly charge for the modem rental, which is pretty standard.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:30:19.259990Z",
+        "speaker": "Customer",
+        "text": "That's really helpful information. I think this bundle is just what I need. How can I sign up?",
+        "intent_detected": {
+          "intent_name": "Payment Arrangement",
+          "confidence_score": 0.9267076073356126
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:30:24.259990Z",
+        "speaker": "Chatbot",
+        "text": "I'm glad to hear that! I can help you with the sign-up process right now. I'll just need to confirm a few details. Do you have a moment to proceed?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:30:40.259990Z",
+        "speaker": "Customer",
+        "text": "Yes, absolutely! Let's get started.",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.7101194436392314
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:30:45.259990Z",
+        "speaker": "Chatbot",
+        "text": "Awesome! I'll guide you through the process. Please provide your address, and we'll check service availability in your area.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:30:59.259990Z",
+        "speaker": "Customer",
+        "text": "Sure, my address is 123 Maple Street, Springfield.",
+        "intent_detected": {
+          "intent_name": "Unmapped Address Error",
+          "confidence_score": 0.734082772271739
+        }
+      },
+      {
+        "turn_number": 13,
+        "timestamp": "2025-03-06T03:31:19.259990Z",
+        "speaker": "Chatbot",
+        "text": "Thank you! I\u2019ve confirmed that service is available in your area. I\u2019ll now proceed with your order. You\u2019ll receive an email confirmation shortly with all the details and a scheduled installation date.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 14,
+        "timestamp": "2025-03-06T03:31:29.259990Z",
+        "speaker": "Customer",
+        "text": "Perfect! Thank you for all your help. I'm excited to get started with Spectrum.",
+        "intent_detected": {
+          "intent_name": "Equipment Return/Pickup",
+          "confidence_score": 0.8912159049231243
+        }
+      },
+      {
+        "turn_number": 15,
+        "timestamp": "2025-03-06T03:31:45.259990Z",
+        "speaker": "Chatbot",
+        "text": "You\u2019re very welcome! We\u2019re thrilled to have you as a customer. If you have any other questions, feel free to reach out. Have a great day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 16,
+        "timestamp": "2025-03-06T03:31:57.259990Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too! Goodbye!",
+        "intent_detected": {
+          "intent_name": "Overlapping Account Merger",
+          "confidence_score": 0.8097633759686813
+        }
+      },
+      {
+        "turn_number": 17,
+        "timestamp": "2025-03-06T03:32:09.259990Z",
+        "speaker": "Chatbot",
+        "text": "Goodbye!",
+        "intent_detected": null
+      }
+    ],
+    "initial_intent": "Bundle & Promotion Inquiry",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "BUNDLE-&-PROMOTION-INQUIRY",
+    "topic_type": "Common",
+    "topic_name": "Bundle & Promotion Inquiry"
+  },
+  {
+    "session_id": "IVR-20250306-11617",
+    "customer_id": "CUST_222297",
+    "call_start_time": "2024-06-09T18:55:12",
+    "call_end_time": "2024-06-09T19:01:59",
+    "call_duration_sec": 407,
+    "conversation": [
+      {
+        "turn_number": 1,
+        "timestamp": "2025-03-06T03:28:55.465302Z",
+        "speaker": "Chatbot",
+        "text": "Thank you for calling Spectrum! My name is Max, your virtual assistant. How can I assist you today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 2,
+        "timestamp": "2025-03-06T03:29:08.465302Z",
+        "speaker": "Customer",
+        "text": "Hi, Max! I'm calling to ask about my latest bill. It seems a bit higher than usual, and I just wanted to understand the charges better.",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.9238165864611159
+        }
+      },
+      {
+        "turn_number": 3,
+        "timestamp": "2025-03-06T03:29:24.465302Z",
+        "speaker": "Chatbot",
+        "text": "I'd be happy to help you with that! Let's take a closer look at your billing details. Could you please provide your account number or the phone number associated with your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 4,
+        "timestamp": "2025-03-06T03:29:38.465302Z",
+        "speaker": "Customer",
+        "text": "Sure, my phone number is 555-0123.",
+        "intent_detected": {
+          "intent_name": "Cancellation Request",
+          "confidence_score": 0.8849769539739519
+        }
+      },
+      {
+        "turn_number": 5,
+        "timestamp": "2025-03-06T03:29:53.465302Z",
+        "speaker": "Chatbot",
+        "text": "Thank you! I've got your account information. Let me pull up your latest bill... Alright, I see that there was an increase due to a promotional discount ending. Your bill reflects the standard rates now.",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 6,
+        "timestamp": "2025-03-06T03:30:12.465302Z",
+        "speaker": "Customer",
+        "text": "Oh, that makes sense. I remember signing up for a promotion last year. Is there anything else I can do to lower my bill, like any new promotions?",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.7339611361170623
+        }
+      },
+      {
+        "turn_number": 7,
+        "timestamp": "2025-03-06T03:30:30.465302Z",
+        "speaker": "Chatbot",
+        "text": "Great question! I can check our current promotions for you. Just a moment... Good news! We have a new promotion available that could reduce your monthly bill by $15. Would you like me to apply this to your account?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 8,
+        "timestamp": "2025-03-06T03:30:43.465302Z",
+        "speaker": "Customer",
+        "text": "Absolutely, that would be fantastic!",
+        "intent_detected": {
+          "intent_name": "Service Outage",
+          "confidence_score": 0.8482629567435191
+        }
+      },
+      {
+        "turn_number": 9,
+        "timestamp": "2025-03-06T03:30:49.465302Z",
+        "speaker": "Chatbot",
+        "text": "Done! I've applied the new promotion to your account. Your next billing cycle will reflect the reduced amount. Is there anything else I can help you with today?",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 10,
+        "timestamp": "2025-03-06T03:30:56.465302Z",
+        "speaker": "Customer",
+        "text": "No, that's everything. Thanks, Max, you've been really helpful!",
+        "intent_detected": {
+          "intent_name": "Upgrade Request",
+          "confidence_score": 0.7455956314933965
+        }
+      },
+      {
+        "turn_number": 11,
+        "timestamp": "2025-03-06T03:31:01.465302Z",
+        "speaker": "Chatbot",
+        "text": "You're welcome! I'm glad I could assist you today. If you have any more questions in the future, don't hesitate to reach out. Have a wonderful day!",
+        "intent_detected": null
+      },
+      {
+        "turn_number": 12,
+        "timestamp": "2025-03-06T03:31:16.465302Z",
+        "speaker": "Customer",
+        "text": "Thanks, you too!",
+        "intent_detected": {
+          "intent_name": "Billing Inquiry",
+          "confidence_score": 0.7365327476407698
+        }
+      }
+    ],
+    "initial_intent": "Billing Inquiry",
+    "resolution_status": "Resolved",
+    "escalation_flag": false,
+    "customer_sentiment": "Positive",
+    "system_error_flag": false,
+    "ivr_outcome_code": "BILLING-INQUIRY",
+    "topic_type": "Common",
+    "topic_name": "Billing Inquiry"
+  }
+]
